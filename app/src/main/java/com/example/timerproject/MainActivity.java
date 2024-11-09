@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void playNotificationSound() {
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.notification_sound);
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sound1);
         mediaPlayer.start();
     }
 
