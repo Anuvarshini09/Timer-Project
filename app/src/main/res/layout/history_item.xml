@@ -5,12 +5,13 @@
     android:padding="8dp">
 
     <TextView
-        android:id="@+id/textDuration"
+        android:id="@+id/textStartTime"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:text="Duration"
-        android:textSize="16sp" />
+        android:text="Start Time"
+        android:textSize="14sp"
+        android:gravity="center" />
 
     <TextView
         android:id="@+id/textEndTime"
@@ -18,5 +19,15 @@
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:text="End Time"
-        android:textSize="16sp" />
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textDuration"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:textSize="14sp"
+        android:gravity="center" />
 </LinearLayout>
